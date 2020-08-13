@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kids_corner.css">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Kid's Corner!!</h1>  
+  <section>
+      <article id="kidsarticle" class="kidsArticle">
+        
+          <h2>
+              To all my children...
+          </h2>
+          <p> This is the place where you can share your creativity.<br>
+            Let it be an oneline caption or a fantastic novel.<br>
+            This is your home wall to draw all your dreams.Openup..share to us..<br>
+            Let the buds of creativity flourish..</p>
+         
+      </article>
+      <form id="form" >
+          <h2>Submit your story here..Hurry!!</h2>
+          <br><br>
+          <label for="name">Name :</label>
+          <input type="text" id="name" name="name" ><br><br>
+          <label for="gender">I agree to revealmy gender :</label>
+          <input type="checkbox" id="gender" name="gender"><br><br>
+          <div id="genderreveal">
+            <input type="radio" id="Male" name="Gender" value="male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="female">
+            <label for="Female">Female</label><br><br>
+          </div>
+         
+          <label for="DOB">DOB :</label>
+          <input type="date" id="DOB" name="DOB" ><br><br>
+         
+          <label for="age">Age :</label>
+           <select id="age" name="age" size="1">
+               <option value="5">5</option>
+               <option value="6">5</option>
+               <option value="7">5</option>
+               <option value="8">5</option>
+               <option value="9">5</option>
+               <option value="10">5</option>
+               <option value="11">5</option>
+               <option value="12">5</option>
+               <option value="13">5</option>
+               <option value="14">5</option>
+               <option value="15">5</option>
+               <option value="16">5</option>
+           </select><br><br>
+           <label for="std">Std :</label>
+           <input type="number" id="std" name="std" min="1" max="10" step="1" value="1"><br><br>
+          <label for="address">Address :</label>
+          <input type="text" id="address" name="address"><br><br>
+          <label for="email">Email :</label>
+          <input type="email" id="email" placeholder="example@example.com"   name="email" ><br><br>
+          <input type="checkbox" id="shortstory" name="shortstory" value="shortstory">
+          <label for="shortstory">I am gonna write a shortstory</label><br><br>
+          <input type="checkbox" id="article" name="article" value="article">
+          <label for="article">I am gonna write an article</label>
+          <label for="art">Drop your Art Here:</label><br><br>
+          <textarea id="art" name="art" ></textarea>
+          <br><br>
+          <input type="submit" id="submit" value="submit">
+          <input type="reset">
+          <p><span id="errormessage"> </span></p>
+
+      </form>
+      <article id="dynamic" class="dynamicArticle">
+
+      </article>
+  </section>
+  <script src="kids_corner.js"></script>
+</body>
+</html>
